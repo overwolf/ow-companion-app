@@ -1,0 +1,5 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" xml:space="preserve" stroke="#131313" fill="#f6f6f6">
+	<path d="M3.81,14.19A5,5,0,0,0,8.5,17.5h3a4,4,0,0,0,4-4v-6a2,2,0,0,0-1-1.72V2.5a1,1,0,0,0-1-1h-7a1,1,0,0,0-1,1v3" />
+	<path d="M7.5,9v4.5a1,1,0,0,1-1,1H5A2.5,2.5,0,0,1,2.5,12V9A3.5,3.5,0,0,1,6,5.5" />
+	<line x1="5.5" y1="4.5" x2="14.5" y2="4.5" />
+</svg>

@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 26" xml:space="preserve" stroke="#131313" fill="#f6f6f6">
+	<circle cx="13" cy="13.5" r="7" stroke-miterlimit="10"/>
+	<polyline points="19.1 10.1 17.6 10 17.1 12.2 18.8 13.6 19.9 12.7" stroke-miterlimit="10"/>
+	<polyline points="18.1 18.3 17.8 16.8 15.6 17 14.7 19.1 15.9 19.8" stroke-miterlimit="10"/>
+	<polyline points="7.9 18.3 8.2 16.8 10.4 17 11.3 19.1 10.1 19.8" stroke-miterlimit="10"/>
+	<polyline points="6.1 12.7 7.2 13.6 8.9 12.2 8.4 10 6.9 10.1" stroke-miterlimit="10"/>
+	<polyline points="11.7 6.6 11.1 8 13 9.1 14.9 8 14.3 6.6" stroke-miterlimit="10"/>
+	<polygon points="13 10.8 15.5 12.7 14.6 15.7 11.4 15.7 10.5 12.7 13 10.8" stroke-miterlimit="10"/>
+	<line x1="17.4" y1="12.1" x2="15.4" y2="12.7" stroke-miterlimit="10"/>
+	<line x1="15.7" y1="17.2" x2="14.5" y2="15.6" stroke-miterlimit="10"/>
+	<line x1="10.3" y1="17.2" x2="11.5" y2="15.6" stroke-miterlimit="10"/>
+	<line x1="8.6" y1="12.1" x2="10.6" y2="12.7" stroke-miterlimit="10"/>
+	<line x1="13" y1="8.9" x2="13" y2="11" stroke-miterlimit="10"/>
+	<ellipse cx="13" cy="2.5" rx="5.5" ry="2" stroke-miterlimit="10"/>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "name": "overwolf-companion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "watch": "vue-cli-service build --mode development --watch",
+    "dev": "vue-cli-service build --mode development",
+    "build": "vue-cli-service build",
+    "prod": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "moment": "^2.24.0",
+    "tcp-port-used": "^1.0.1",
+    "uuid-random": "^1.0.9",
+    "vue": "^2.6.10",
+    "websocket-as-promised": "^0.10.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "moment-locales-webpack-plugin": "^1.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

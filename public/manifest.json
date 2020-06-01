@@ -1,0 +1,186 @@
+{
+	"manifest_version": 1,
+	"type": "WebApp",
+	"meta": {
+		"name": "Overwolf companion",
+		"version": "1.0.0",
+		"minimum-overwolf-version": "0.134.0",
+		"author": "Overwolf",
+		"description": "Overwolf companion app",
+		"icon": "icons/iconMouseOver.png",
+		"icon_gray": "icons/iconMouseNormal.png",
+		"launcher_icon": "icons/icon.ico",
+		"window_icon": "icons/windowIcon.png"
+	},
+	"permissions": [
+		"Extensions",
+		"Streaming",
+		"GameInfo",
+		"Profile",
+		"DesktopStreaming",
+		"Hotkeys",
+		"Clipboard",
+		"FileSystem",
+		"VideoCaptureSettings"
+	],
+	"data": {
+		"start_window": "index",
+		"windows": {
+			"index": {
+				"file": "index.html",
+				"transparent": true,
+				"clickthrough": true,
+				"resizable": false,
+				"show_in_taskbar": false,
+				"is_background_page": true,
+				"keep_window_location": false,
+				"background_optimization": false,
+				"size": {
+					"width": 20,
+					"height": 20
+				},
+				"start_position": {
+					"top": 0,
+					"left": 0
+				}
+			},
+			"main": {
+				"file": "main.html",
+				"transparent": false,
+				"resizable": true,
+				"show_maximize": true,
+				"keep_window_location": true,
+				"override_on_update": true,
+				"min_size": {
+					"width": 800,
+					"height": 700
+				},
+				"size": {
+					"width": 800,
+					"height": 700
+				},
+				"start_position": {
+					"top": 200,
+					"left": 600
+				}
+			},
+			"share": {
+				"file": "share.html",
+				"transparent": false,
+				"resizable": false,
+				"keep_window_location": true,
+				"override_on_update": true,
+				"size": {
+					"width": 400,
+					"height": 600
+				},
+				"start_position": {
+					"top": 200,
+					"left": 600
+				}
+			},
+			"notice": {
+				"file": "notice.html",
+				"transparent": true,
+				"resizable": false,
+				"topmost": true,
+				"show_in_taskbar": false,
+				"keep_window_location": true,
+				"override_on_update": true,
+				"size": {
+					"width": 350,
+					"height": 600
+				},
+				"start_position": {
+					"top": 10,
+					"left": 10
+				}
+			}
+		},
+		"hotkeys": {
+			"overwolf-companion-toggle": {
+				"title": "Show/Hide Overwolf companion",
+				"action-type": "toggle",
+				"default": "Ctrl+M"
+			},
+			"overwolf-companion-record": {
+				"title": "Start/stop recording ingame video",
+				"action-type": "custom",
+				"default": "Ctrl+Shift+R"
+			}
+		},
+		"game_events": [
+			765,
+			5426,
+			5855,
+			6365,
+			7212,
+			7314,
+			7764,
+			9898,
+			10624,
+			10746,
+			10798,
+			10826,
+			10844,
+			10878,
+			10902,
+			10906,
+			21216,
+			21566,
+			21568,
+			21570,
+			21308,
+			21404,
+			21586,
+			21598,
+			21620,
+			21634,
+			21640
+		],
+		"launch_events": [
+			{
+				"event": "LaunchWithOverwolf",
+				"event_data": {},
+				"start_minimized": true
+			}
+		],
+		"game_targeting": {
+			"type": "dedicated",
+			"game_ids": [
+				765,
+				5426,
+				5855,
+				6365,
+				7212,
+				7314,
+				7764,
+				9898,
+				10624,
+				10746,
+				10798,
+				10826,
+				10844,
+				10878,
+				10902,
+				10906,
+				21216,
+				21566,
+				21568,
+				21570,
+				21308,
+				21404,
+				21586,
+				21598,
+				21620,
+				21634,
+				21640
+			]
+		},
+		"developer": {
+			"enable_auto_refresh": true,
+			"reload_delay": 7500,
+			"filter": "*.*"
+		}
+	}
+}
