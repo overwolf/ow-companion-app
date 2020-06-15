@@ -22,3 +22,6 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Overwolf Companion Guide
+See [Overwolf Companion Guide](https://docs.google.com/document/d/1CN21ev9O3zm13sGiQV9dPIiKIYR9tNmQQLhd4_aLUVk/edit?usp=sharing).
