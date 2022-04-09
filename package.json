@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "tcp-port-used": "^1.0.1",
     "uuid-random": "^1.0.9",
     "vue": "^2.6.10",
